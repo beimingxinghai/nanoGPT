@@ -3,6 +3,7 @@ import time
 out_dir = 'out-shakespeare'
 eval_interval = 5
 eval_iters = 40
+# wandb是一个免费的，用于记录机器学习训练过程数据的工具
 wandb_log = False # feel free to turn on
 wandb_project = 'shakespeare'
 wandb_run_name = 'ft-' + str(time.time())
